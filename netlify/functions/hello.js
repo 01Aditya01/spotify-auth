@@ -28,16 +28,6 @@ const getAccessToken = async () => {
   return response.json();
 };
 
-const getNowPlaying = async () => {
-  const { access_token } = await getAccessToken();
-
-  return fetch(NOW_PLAYING_ENDPOINT, {
-    headers: {
-      Authorization: `Bearer ${access_token}`,
-    },
-  });
-};
-
 export const handler = async function (event, context) {
   const accessToken = await getAccessToken();
   return {
