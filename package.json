@@ -13,7 +13,7 @@
   "dependencies": {
     "netlify-cli": "^12.1.0",
     "netlify-lambda": "^2.0.15",
-    "node-fetch": "^3.2.10",
+    "node-fetch": "^2.6.1",
     "querystring": "^0.2.1"
   }
 }
