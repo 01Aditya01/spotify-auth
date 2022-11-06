@@ -1,0 +1,17 @@
+{
+  "name": "spotify-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type":"module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "netlify-cli": "^12.1.0",
+    "node-fetch": "^3.2.10",
+    "querystring": "^0.2.1"
+  }
+}
