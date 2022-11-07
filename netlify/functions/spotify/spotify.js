@@ -33,5 +33,8 @@ export const handler = async function (event, context) {
   return {
     statusCode: 200,
     body: JSON.stringify(accessToken),
+    headers: {
+      "Access-Control-Allow-Origin": "http://127.0.0.1:5173/",
+    },
   };
 };
