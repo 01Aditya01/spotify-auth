@@ -2,3 +2,12 @@
   command = "# no build command"
   functions = "netlify/functions"
   publish = "public"
+
+[[redirects]]
+  from = "/pathx"
+  to = "https://spotify-apifetch.netlify.app/.netlify/functions/spotify"
+  status = 200
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
