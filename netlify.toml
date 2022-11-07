@@ -3,10 +3,6 @@
   functions = "netlify/functions"
   publish = "public"
 
-[[redirects]]
-  from = "/*"
-  to = "/public/index.html"
-  status = 200
 [[headers]]
   for = "/*"
   [headers.values]
